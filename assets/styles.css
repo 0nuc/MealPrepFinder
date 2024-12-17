@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.nutrition-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.like-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background-color: #45a049;
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Changez à space-between pour réduire l'espace */
+    background-color: #4CAF50;
+    padding: 20px 40px; /* Ajustez le padding pour réduire l'espace vertical */
+    position: fixed;
+    bottom: 20px; /* Espace de 20px du bas */
+    left: 50%; /* Centrer horizontalement */
+    transform: translateX(-50%); /* Ajuster pour centrer */
+    width: calc(100% - 250px); /* Largeur totale moins 40px (20px de chaque côté) */
+    border-radius: 15px; /* Bordures arrondies */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 10px; /* Ajustez l'espacement entre les icônes */
+}
+
+.nav-item:hover {
+    color: #ddd;
+}
